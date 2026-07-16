@@ -330,3 +330,67 @@ ul{
 .team-btn:hover{
     opacity:.9;
 }
+
+
+/* Hackathon Section */
+
+.hackathon{
+    padding:100px 0;
+    background:#111827;
+    color:white;
+    text-align:center;
+}
+
+.hackathon h2{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.hackathon p{
+    max-width:700px;
+    margin:0 auto 50px;
+    font-size:18px;
+    line-height:1.7;
+    color:#d1d5db;
+}
+
+.hackathon-info{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-bottom:50px;
+}
+
+.info-box{
+    width:220px;
+    padding:30px;
+    background:#1f2937;
+    border-radius:12px;
+}
+
+.info-box h3{
+    font-size:40px;
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+.info-box p{
+    margin:0;
+    font-size:16px;
+    color:#d1d5db;
+}
+
+.hackathon-btn{
+    padding:16px 38px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+    font-weight:600;
+    cursor:pointer;
+}
+
+.hackathon-btn:hover{
+    background:#1d4ed8;
+}
