@@ -192,3 +192,141 @@ ul{
   color: #666;
 }
 
+/* Pricing Section */
+
+.pricing{
+    padding:100px 0;
+    background:#ffffff;
+}
+
+.pricing h2{
+    text-align:center;
+    font-size:56px;
+    font-weight:800;
+    color:#111827;
+}
+
+.pricing-subtitle{
+    text-align:center;
+    color:#6b7280;
+    font-size:20px;
+    margin-top:18px;
+    margin-bottom:60px;
+}
+
+.pricing-cards{
+    display:flex;
+    justify-content:center;
+    gap:24px;
+}
+
+.price-card{
+    width:360px;
+    padding:32px;
+    border:1px solid #e5e7eb;
+    border-radius:16px;
+    background:#ffffff;
+}
+
+.price-card h5{
+    color:#808080;
+    font-size:18px;
+    margin-bottom:12px;
+}
+
+.price-card h3{
+    font-size:60px;
+    font-weight:800;
+    color:#111827;
+}
+
+.price-card span{
+    display:block;
+    color:#6b7280;
+    margin-top:8px;
+    margin-bottom:28px;
+}
+
+.price-card hr{
+    border:none;
+    border-top:1px solid #e5e7eb;
+    margin-bottom:28px;
+}
+
+.price-card ul{
+    margin-bottom:30px;
+}
+
+.price-card ul li{
+    margin-bottom:18px;
+    color:#374151;
+    font-size:17px;
+    line-height:1.5;
+}
+
+.price-card ul li::before{
+    content:"•";
+    color:#2563eb;
+    margin-right:10px;
+}
+
+.price-card button{
+    width:100%;
+    padding:15px;
+    border-radius:10px;
+    font-size:18px;
+    font-weight:600;
+    cursor:pointer;
+}
+
+/* Featured Card */
+
+.featured{
+    background:#111c2d;
+    color:white;
+}
+
+.featured h5{
+    color:#60a5fa;
+}
+
+.featured h3{
+    color:white;
+}
+
+.featured span{
+    color:#d1d5db;
+}
+
+.featured hr{
+    border-top:1px solid rgba(255,255,255,.15);
+}
+
+.featured ul li{
+    color:#e5e7eb;
+}
+
+
+.standard-btn{
+    background:white;
+    color:#2563eb;
+    border:1px solid #2563eb;
+}
+
+.featured-btn{
+    background:#3153dc;
+    color:white;
+    border:none;
+}
+
+.team-btn{
+    background:white;
+    color:#111827;
+    border:1px solid #111827;
+}
+
+.standard-btn:hover,
+.featured-btn:hover,
+.team-btn:hover{
+    opacity:.9;
+}
