@@ -71,3 +71,61 @@ ul{
     cursor: pointer;
 }
 
+/* Hero Section */
+
+.hero {
+  background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.7)), url("./assets/banner.jpg");
+  background-size: cover;
+  background-position: center top;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px 80px;
+}
+
+.hero-content {
+    max-width: 900px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    margin-top: 180px;
+}
+
+.hero-content h1{
+    font-size: 64px;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.hero-content h1 em {
+  font-style: italic;
+  font-weight: 800;
+}
+
+.hero-content p{
+    max-width: 620px;
+    margin: 0 auto 36px;
+    color: #d8d8d8;
+    font-size: 17px;
+    line-height: 1.2;
+}
+
+.btn-register {
+  background-color: #4834d4;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  padding: 16px 36px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 500px;   /* ← this pushes it down, increase/decrease as needed */
+}
+
+.btn-register:hover {
+  background-color: #3c2bc4;
+}
+
