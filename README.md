@@ -1,6 +1,4 @@
-<img width="1919" height="906" alt="image" src="https://github.com/user-attachments/assets/b9529162-4a30-41ec-9094-6b7995fa814f" /># 🎤 DevConf-2026
-
-Assignment 1 for the **Programming Hero** course — a static conference/landing page built with core HTML & CSS to practice semantic markup, layout, and responsive design fundamentals.
+# 🎤 DevConf-2026 Assignment 1 for the **Programming Hero** course — a static conference/landing page built with core HTML & CSS to practice semantic markup, layout, and responsive design fundamentals.
 
 **🔗 Live site:** https://jafor07.github.io/DevConf-2026/
 
